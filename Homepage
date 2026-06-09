@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquatastic Studio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #4ac7ff, #0066ff);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 80px 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background: white;
+            color: #0066ff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: #dcecff;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Aquatastic Studio</h1>
+        <p>
+            Aquatastic is a small indie game studio focused on creating fun, 
+            creative, and chaotic browser games.  
+            Our mission is simple: make games that feel alive, playful, and unforgettable.
+        </p>
+
+        <a class="btn" href="https://aquatastic.github.io/salt/" target="_blank">
+            Play Salt Game
+        </a>
+
+        <footer>
+            © 2026 Aquatastic Studio — Made with creativity and chaos
+        </footer>
+    </div>
+</body>
+</html>
