@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aquatastic</title>
 
     <!-- Favicon -->
@@ -56,11 +56,32 @@
             font-size: 0.9rem;
             opacity: 0.8;
         }
+
+        .game-section {
+            margin-top: 40px;
+        }
+
+        .game-title {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
+
+        <!-- Aquatastic Logo -->
+        <img class="logo" src="https://avatars.githubusercontent.com/u/159962376?s=96&v=4" alt="Aquatastic Logo">
+
         <h1>aquatastic</h1>
         <p>
             aquatastic is a small studio by one dude and his water, 
@@ -68,15 +89,27 @@
             My mission is simple: Use coding as a excuse to procrasinate.(just kidding thats a bad thing to do)
         </p>
 
-        <!-- Play Button -->
-        <a class="btn" href="https://aquatastic.github.io/salt/" target="_blank">
-            Salt R Us
-        </a>
+        <!-- GAME 1 -->
+        <div class="game-section">
+            <div class="game-title">Salt R Us</div>
+            <a class="btn" href="https://aquatastic.github.io/salt/" target="_blank">
+                Play
+            </a>
+            <a class="btn" href="https://github.com/aquatastic/salt" target="_blank">
+                Code
+            </a>
+        </div>
 
-        <!-- GitHub Code Button -->
-        <a class="btn" href="https://github.com/aquatastic/salt" target="_blank">
-            Code
-        </a>
+        <!-- GAME 2 -->
+        <div class="game-section">
+            <div class="game-title">Paint Ball Run</div>
+            <a class="btn" href="https://aquatastic.github.io/PBRN/" target="_blank">
+                Play
+            </a>
+            <a class="btn" href="https://github.com/aquatastic/PBRN" target="_blank">
+                Code
+            </a>
+        </div>
 
         <footer>
             © 2026 aquatastic "nah i'd drown of thirst"
